@@ -1,11 +1,11 @@
 class Amux < Formula
   desc "Run AI coding agents in per-directory persistent tmux sessions"
   homepage "https://github.com/xiaoxiunique/amux"
-  url "https://github.com/xiaoxiunique/amux/archive/refs/tags/v0.4.3.tar.gz"
-  sha256 "8eda204c6b232d4434fc5cdfda15ad2e83af5b3ac60b4a9a5a95db5dbf92f787"
+  url "https://github.com/xiaoxiunique/amux/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "f0caff4d7d84ad93e9e37c287f8b6d1c6cec7ecc1af98587310c95d9a463ac6f"
   license "MIT"
   depends_on "rust" => :build
-  depends_on "tmux"
+  depends_on "rmux"
 
   def install
     system "cargo", "install", "--locked", "--root", prefix, "--path", "."
