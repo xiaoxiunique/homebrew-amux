@@ -1,18 +1,18 @@
 class Amux < Formula
   desc "Run AI coding agents in per-directory persistent rmux sessions"
   homepage "https://github.com/xiaoxiunique/amux"
-  version "0.5.14"
+  version "0.5.15"
   license "MIT"
   depends_on "rmux"
 
   on_macos do
     on_arm do
-      url "https://github.com/xiaoxiunique/amux/releases/download/v0.5.14/amux-v0.5.14-aarch64-apple-darwin.tar.gz"
-      sha256 "6bfc15132149cb098167e00aa91ee4ed7a6fb538c7a68619461b1e43a0d08360"
+      url "https://github.com/xiaoxiunique/amux/releases/download/v0.5.15/amux-v0.5.15-aarch64-apple-darwin.tar.gz"
+      sha256 "c422c10830827703bf361484424cdc29d6e273c25ce04350536015a087a70c04"
     end
     on_intel do
-      url "https://github.com/xiaoxiunique/amux/releases/download/v0.5.14/amux-v0.5.14-x86_64-apple-darwin.tar.gz"
-      sha256 "51c3871ca49277c6317c4febb3032b93d7a189d8b969e8980a632339c96110fb"
+      url "https://github.com/xiaoxiunique/amux/releases/download/v0.5.15/amux-v0.5.15-x86_64-apple-darwin.tar.gz"
+      sha256 "223a61a2bf0998028c72e62ebb0ca430a8a82fb7c45b04b1631a7c397b90d333"
     end
   end
 
